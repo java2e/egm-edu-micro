@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.time.LocalDate;
 
 
-@Embeddable
+@MappedSuperclass
 @Data
 public class BaseModel {
 	@Id
