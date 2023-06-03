@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="apigateway" />
-        <module name="discoveryservice" />
         <module name="ticketservice" />
-        <module name="accountservice" />
         <module name="userservice" />
+        <module name="serviceB" />
+        <module name="discoveryservice" />
+        <module name="serviceA" />
+        <module name="accountservice" />
       </profile>
     </annotationProcessing>
   </component>
@@ -20,6 +22,8 @@
       <module name="accountservice" options="-parameters" />
       <module name="apigateway" options="-parameters" />
       <module name="discoveryservice" options="-parameters" />
+      <module name="serviceA" options="-parameters" />
+      <module name="serviceB" options="-parameters" />
       <module name="ticketservice" options="-parameters" />
       <module name="userservice" options="-parameters" />
     </option>
