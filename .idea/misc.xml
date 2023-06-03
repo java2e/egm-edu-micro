@@ -11,6 +11,10 @@
         <option value="$PROJECT_DIR$/apigateway/pom.xml" />
         <option value="$PROJECT_DIR$/serviceA/pom.xml" />
         <option value="$PROJECT_DIR$/serviceB/pom.xml" />
+        <option value="$PROJECT_DIR$/paymentsmicroservice/pom.xml" />
+        <option value="$PROJECT_DIR$/ordermicroservice/pom.xml" />
+        <option value="$PROJECT_DIR$/inventorymicroservice/pom.xml" />
+        <option value="$PROJECT_DIR$/shipmentmicroservice/pom.xml" />
       </list>
     </option>
   </component>
