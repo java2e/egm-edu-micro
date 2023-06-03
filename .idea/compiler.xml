@@ -9,21 +9,21 @@
         <outputRelativeToContentRoot value="true" />
         <module name="apigateway" />
         <module name="ticketservice" />
-        <module name="microservice (4) (com.shipment)" />
         <module name="userservice" />
         <module name="serviceB" />
         <module name="discoveryservice" />
         <module name="serviceA" />
-        <module name="microservice (3) (com.payment)" />
         <module name="accountservice" />
-        <module name="microservice (1) (com.inventory)" />
-        <module name="microservice (2) (com.order)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microservice" target="1.5" />
+      <module name="microservice (1) (com.inventory)" target="11" />
       <module name="microservice (1) (com.order)" target="1.5" />
+      <module name="microservice (2) (com.order)" target="11" />
       <module name="microservice (2) (com.payment)" target="11" />
+      <module name="microservice (3) (com.payment)" target="11" />
+      <module name="microservice (4) (com.shipment)" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
